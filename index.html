@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Brian Tucker, https://www.briantucker.design">
+    <meta name="description" content="Stuff made by Brian">
+    <meta property="og:title" content="byBrian.io">
+    <meta property="og:description" content="Stuff made by Brian">
+    <meta property="og:url" content="https://www.bybrian.io">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="tinySync">
+    <link rel="canonical" href="https://www.bybrian.io">
+    <meta name="keywords" content="brian tucker, designer, design, lowcode, webflow, airtable, music, node">
+    <title>* by Brian</title>
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+    <style>
+        body {
+            font-size: 1rem;
+            color: black;
+            background-color: white;
+            font-family: 'Inter', sans-serif;
+            width: 100dvw;
+            height: 100dvh;
+            min-height: 50rem;
+            margin: 0;
+            padding: 0;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+        #wrapper {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row-reverse;
+            gap: 2rem;
+        }
+
+        main {
+            display: flex;
+            width: 100%;
+            max-width: 50dvw;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        .items {
+            width: 20rem;
+        }
+
+        .item {
+            display: flex;
+            padding: 2rem 0rem;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 2rem;
+            align-self: stretch;
+            border-bottom: 1px solid #CFC6DA;
+        }
+
+        .item:last-child {
+            border-bottom: 0px;
+        }
+
+        aside {
+            width: 100%;
+            max-width: 50dvw;
+        }
+
+        a {
+            color: #7877A6;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #0F0F1D;
+        }
+
+        aside h1 {
+            color: #0F0F1D;
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .github-icon {
+            width: 2rem;
+            height: 2rem;
+            color: lime;
+            display: block;
+        }
+
+        .github-icon:hover {
+            color: green;
+        }
+
+        .magenta {
+            color: magenta;
+        }
+
+        p {
+            padding: 0;
+            margin: 0;
+        }
+
+        h2 {
+            padding: 0;
+            margin: 0 0 0.25rem 0;
+        }
+
+        .disabled {
+            color: #ababc8;
+            font-weight: 500;
+        }
+
+        .deemphasize {
+            font-weight: 400;
+        }
+
+
+        @media (max-width: 600px) {
+            body {
+                font-size: .9rem;
+            }
+
+            #wrapper {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .items {
+                width: 100dvw;
+                padding: 0 2rem 0 2rem;
+            }
+
+            .item {
+                gap: 1rem;
+            }
+
+            main {
+                width: 100dvw;
+                max-width: none;
+
+            }
+
+            aside {
+                max-width: none;
+                width: 100dvw;
+                text-align: center;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id='wrapper'>
+        <aside>
+            <h1>
+                made with <span class="magenta">❤</span> by <a href='https://www.briantucker.design' target="_blank"
+                    rel="noopener noreferrer">Brian</a>
+            </h1>
+        </aside>
+
+        <main>
+            <div class="items">
+
+                <div class="item">
+                    <div>
+                        <h2>tinySync 🔁</h2>
+                        <p>Airtable -> Webflow sync via CLI</p>
+                    </div>
+                    <a href='https://tinysync.bybrian.io' target="_blank" rel="noopener noreferrer">
+                        tinySync.<span class="deemphasize">byBrian.io</span> <span class="magenta">-></span>
+                    </a>
+                </div><!--item-->
+
+                <div class="item">
+                    <div>
+                        <h2>gennyFlow 📷</h2>
+                        <p>Dynamic image generation in Webflow</p>
+                    </div>
+                    <a href='https://gennyflow.bybrian.io' target="_blank" rel="noopener noreferrer">
+                        gennyFlow.<span class="deemphasize">byBrian.io</span> <span class="magenta">-></span>
+                    </a>
+                </div><!--item-->
+
+                <div class="item">
+                    <div>
+                        <h2>brianSinging 🎤</h2>
+                        <p>Me, but singing</p>
+                    </div>
+                    <a href='https://www.instagram.com/briansinging' target="_blank" rel="noopener noreferrer">
+                        <span class="deemphasize">instagram.com</span>/briansinging <span class="magenta">-></span>
+                    </a>
+                </div><!--item-->
+
+                <div class="item">
+                    <div>
+                        <h2>briteThreads 🧵</h2>
+                        <p>Bespoke goods for a cause</p>
+                    </div>
+                    <span class="disabled">
+                        Coming soon
+                    </span>
+                </div><!--item-->
+            </div>
+
+        </main><!--main-->
+
+    </div><!--wrapper-->
+
+</body>
+
+</html>
